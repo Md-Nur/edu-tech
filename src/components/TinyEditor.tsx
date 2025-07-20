@@ -11,11 +11,11 @@ const TinyEditor = ({ height = 300 }: { height?: number }) => {
     setIsMounted(true);
   }, []);
 
-  const log = () => {
-    if (editorRef.current) {
-      console.log(editorRef.current.getContent());
-    }
-  };
+  // const log = () => {
+  //   if (editorRef.current) {
+  //     console.log(editorRef.current.getContent());
+  //   }
+  // };
 
   if (!isMounted) {
     return (

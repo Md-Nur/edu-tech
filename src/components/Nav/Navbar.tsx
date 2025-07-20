@@ -28,10 +28,7 @@ export default function Navbar({ children }: { children?: ReactNode }) {
               </label>
             </div>
             <div className="mx-2 flex-1 px-2">
-              <Link
-                href={user?.id ? "/dashboard" : "/"}
-                className="text-lg font-bold"
-              >
+              <Link href={"/"} className="text-lg font-bold">
                 <span className="inline-block">Edu Tech</span>
               </Link>
             </div>
